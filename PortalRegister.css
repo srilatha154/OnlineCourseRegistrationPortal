@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: rgb(62, 62, 62);
+}
+/* Background */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  margin: 100px auto;
+  padding: 40px;
+  border-radius: 10px;
+  background: rgb(62, 62, 62);
+  box-shadow: 0 8px 20px rgba(204, 202, 202, 0.3);
+}
+/* Card */
+.register-box {
+  border-radius: 12px;
+  width: 100%;
+  text-align: center;
+  background: rgb(62, 62, 62);
+  color:whitesmoke;
+}
+/* Heading */
+.register-box h2 {
+  margin-bottom: 20px;
+  color: whitesmoke;
+  font-size: 28px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+/* Inputs */
+.register-box input {
+  width: 95%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.register-box select { 
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+/* Button */
+.register-box button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #2ae456;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.register-box button:hover {
+  background: #06bd34;
+}
+/* Message */
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+}
+/* Login link */
+.login-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.login-link span {
+  color: #11c6e7;
+  cursor: pointer;
+  font-weight: bold;
+}

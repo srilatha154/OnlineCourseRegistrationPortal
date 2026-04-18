@@ -1,0 +1,53 @@
+/* Full page */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: rgb(62, 62, 62);
+}
+/* Container */
+.login-container {
+  width: 350px;
+  margin: 100px auto;
+  padding: 40px;
+  background: rgb(62, 62, 62);
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(204, 202, 202, 0.3);
+  text-align: center;
+}
+/* Heading */
+.login-container h2 {
+  margin-bottom: 20px;
+  color: whitesmoke;
+  font-size: 35px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+/* Inputs */
+.login-container input {
+  width: 95%;
+  padding: 10px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Button */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #2ae456;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+.login-container button:hover {
+  background: #06bd34;
+}
+/* Message */
+.message {
+  margin-top: 10px;
+  color: red;
+}
